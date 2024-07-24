@@ -20,7 +20,7 @@ def process_input(user_input):
 def start_chatbot():
     print('Welcome to the chatbot!')
     while True:
-      user_input = input('You: ')
+        user_input = input('You: ')
         response = process_input(user_input)
         print('Chatbot: ', response)
         if user_input.lower() == 'exit':
